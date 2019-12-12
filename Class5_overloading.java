@@ -1,8 +1,7 @@
 package corepgm;
-
 import java.util.Scanner;
-
-public class Class5_overloading {
+public class OverloadingExample
+{
 	
 	public void area(int a,int b) 
 	{
@@ -25,10 +24,11 @@ public class Class5_overloading {
 		System.out.println("Area:"+c);
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		String op2="";
 		Scanner s=new Scanner(System.in);
-		Class5_overloading obj=new Class5_overloading();
+		OverloadingExample obj=new OverloadingExample();
 		int x,y;
 		float m,n;
 		int op1;
@@ -67,11 +67,9 @@ public class Class5_overloading {
 				break;
 				default:
 					break;
-					}	
+			}	
 			System.out.println("Do you want to Conti....(yes/no)");
 			op2=s.next();
 		}while(op2.equals("yes"));
-		
 	}
-
 }
