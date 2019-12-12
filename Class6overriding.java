@@ -1,5 +1,4 @@
 package corepgm;
-
 class Parent
 {
 	void show()
@@ -15,16 +14,16 @@ class Child extends Parent
 	}
 }
 
-public class Class6overriding {
+public class OverridingExample
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 	Parent obj1=new Parent();	
 	Child obj3=new Child();
 	Parent obj2=new Child();
 	obj1.show();
 	obj2.show();
 	obj3.show();
-	
 	}
-
 }
