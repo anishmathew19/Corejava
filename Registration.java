@@ -9,7 +9,7 @@ public class Registration
 	public static void main(String[] args) 
 	{
 		
-		Class1case obj=new Class1case();
+		Registration obj=new Registration();
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter User Details");	
 		System.out.println("Enter  user name");	
