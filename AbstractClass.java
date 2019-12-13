@@ -1,8 +1,8 @@
 package corepgm;
-public class Class8_abstract {
-
-	public static void main(String[] args) {
-		
+public class AbstractClass
+{
+	public static void main(String[] args) 
+	{
 		Racoon racoon=new Racoon("Racoon");
 		racoon.eat();
 		racoon.breath();
